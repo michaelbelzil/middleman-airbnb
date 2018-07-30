@@ -1,10 +1,11 @@
 #home {
   background-color: $dark-green;
   color: $light-gray;
-  height: calc(100vh - 170px);
+  padding: 5% 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-direction: column;
   text-align: center;
   p {
     margin-top: 1.5em;
@@ -14,4 +15,8 @@
     font-weight: bold;
     font-size: 16px;
   }
+}
+
+.home-content > p {
+  font-size: 28px;
 }
